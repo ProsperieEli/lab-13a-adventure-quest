@@ -16,15 +16,15 @@ e.preventDefault();
 
 const data = new FormData(ourForm);
 
-const userName = data.get('user-name');
-console.log(userName);
-const UserData = {
-  name: userName,
-  animal: '',
-  shyness: 0,
-  danger: 0,
-  visited: {}
-};
+    const userName = data.get('user-name');
+    const userAnimal = data.get('animal');
+    const UserData = {
+        name: userName,
+        animal: userAnimal,
+        shyness: 0,
+        danger: 0,
+        visited: {}
+    };
     setUserData(UserData);
    
     window.location = './Sky';
