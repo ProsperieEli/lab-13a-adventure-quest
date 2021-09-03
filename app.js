@@ -11,5 +11,5 @@ const ourForm = document.querySelector('our-form');
 ourForm.addEventListener('submit',(e) => {
 e.preventDefault();
 
-}
+});
   // const player = document.querySelector('input:checked');

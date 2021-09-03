@@ -1,4 +1,4 @@
-import { UserData } from './data.js';
+import { UserData } from './user-data.js';
 
 export const USERDATA = 'USERDATA';
 

@@ -17,3 +17,4 @@ export const UserData = {
     danger: 0,
     visited: {}
 };
+
