@@ -15,7 +15,7 @@
 6.  Find all the 'events' (user clicks, form submit, etc) in your app. Ask one by one, "What happens when" for each of these events. Does any state change?
 
          -First page: submit button
-             --State of name and emoticon change
+             --State of name and animal change
                  --takes to second page
 
          -Second page: Click event
@@ -63,8 +63,6 @@
     -keep track of results on second-fifth with user data displayed
     -form
 
-<!--Only thing hard coded is form-->
-
     -title
     -image
     -div(description)
@@ -74,7 +72,7 @@
 ## Final(results page)
 
     -name
-    -emoticon
+    -animal
     -div(data related to value1 and value2)
 
     -return to first page button

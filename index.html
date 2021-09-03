@@ -18,24 +18,28 @@
             <img src="assets/big-logo.png" />
         </div>
     </header>
+
     <main>
+
         <section class="main-section">
            
-            <h2>
-                Choose your Spirit Animal!
-            </h2>
-            <form>
-                <label>Preferred Name:
-                <input type ="text"> </label>
-                <label>Dog 
-                <input type ="radio" name ="animal" value= "animal1"></label>
-                <label> Cat
-                <input type ="radio" name ="animal" value= "animal2"></label>
-                <label> Mouse 
-                <input type ="radio" name ="animal" value= "animal3"></label>
-                <button>Submit </button>
-            </form>
+            <h2>Choose your Spirit Animal!</h2>
 
+            <form id="our-form">
+                <label>Preferred Name:
+                    <input type ="text" id="user-name">
+                </label>
+                <label>Dog 
+                    <input type ="radio" name ="animal" value= "animal1" id="animal-one">
+                </label>
+                <label>Cat
+                    <input type ="radio" name ="animal" value= "animal2" id="animal-two">
+                </label>
+                <label>Mouse 
+                    <input type ="radio" name ="animal" value= "animal3" id="animal-three">
+                </label>
+                <button>Submit</button>
+            </form>
 
         </section>
     </main>
@@ -44,6 +48,7 @@
     </footer>
 
     <script type="module" src="./app.js"></script>
+    <script type="module" src="./local-storage-utils.js"></script>
 </body>
 
 </html>
