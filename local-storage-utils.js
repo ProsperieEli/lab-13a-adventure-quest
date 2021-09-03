@@ -1,4 +1,4 @@
-import { UserData } from './user-data.js';
+// import { UserData } from './user-data.js';
 
 export const USERDATA = 'USERDATA';
 
@@ -16,6 +16,7 @@ export function getUserData() {
 }
 
 export function findById(UserData, id) {
+    console.log(UserData, id);
     for (let user of UserData) {
         if (user.id === id) {
             return user;

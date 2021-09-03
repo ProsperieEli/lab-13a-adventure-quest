@@ -1,7 +1,7 @@
 const cassiopeia = {
     id: 'cassiopeia',
     title: 'Who is the Most beautiful?',
-    img: 'cassiepeia.jpeg',
+    img: 'cassiopeia.jpeg',
     description: 'You encounter Cassiopeia, who is arguing with the Nereids, they are sea nymphs, about who is the most beautiful, Cassiopeia claims she has no equal. You intervene and:',
 
     choices: [{
