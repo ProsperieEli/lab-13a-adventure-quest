@@ -15,9 +15,9 @@ ourForm.addEventListener('submit', (e) => {
 e.preventDefault();
 
 const data = new FormData(ourForm);
-console.log(data);
-const userName = data.get('user-name');
 
+const userName = data.get('user-name');
+console.log(userName);
 const UserData = {
   name: userName,
   animal: '',
@@ -27,7 +27,7 @@ const UserData = {
 };
     setUserData(UserData);
    
-    
+    window.location = './Sky';
 
 });
   // const player = document.querySelector('input:checked');
