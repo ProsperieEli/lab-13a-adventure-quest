@@ -25,7 +25,7 @@ header {
 main {
 	display: grid;
 	grid-template-columns: 1fr 666px 1fr;
-	min-height: 600px;
+	min-height: 666px;
 }
 
 .main-section {
