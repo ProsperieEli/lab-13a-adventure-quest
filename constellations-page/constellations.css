@@ -99,3 +99,6 @@ footer {
 	color: rgba(255, 255, 255, 0.152);
 	margin-right: 10px;
 }
+audio { 
+	display: none;
+}

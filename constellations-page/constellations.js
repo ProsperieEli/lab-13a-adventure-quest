@@ -4,6 +4,7 @@ import { getUserData } from '../local-storage-utils.js';
 
 const userData = getUserData();
 
+// plug current status of user into header
 const currentStatus = document.getElementById('current-status');
 currentStatus.textContent = `${userData.name} is ${'brave'} and ${'dangerous'}`;
 
@@ -18,18 +19,27 @@ const description1 = document.getElementById('description-1');
 const description2 = document.getElementById('description-2');
 const description3 = document.getElementById('description-3');
 
+const backgroundAudio = document.getElementById('background-audio');
 
 const urlData = new URLSearchParams(window.location.search);
 const constellationId = urlData.get('id');
 const constellation = findById(choices, constellationId);
 
+// set background audio
+backgroundAudio.src = constellation.audio;
+
+// set background audio file to low volume
+backgroundAudio.volume = 0.2;
+
+// set background immage from data file
 document.body.style.background = `url(../constellations-page/star-assets/${constellation.img}) no-repeat`;
 document.body.style.backgroundSize = 'cover';
 
+//set title and description from data file
 constellationTitle.textContent = constellation.title;
-// constellationImg.src = `../assets/${constellation.img}`;
 constellationDescription.textContent = constellation.description;
 
+// set three choices
 choice1.value = constellation.choices[0].id;
 description1.textContent = constellation.choices[0].description;
 
