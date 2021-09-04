@@ -1,5 +1,5 @@
 //const skyData = new URLSearchParams(window.location.search);
-import { getUserData } from "../local-storage-utils.js";
+import { getUserData } from '../local-storage-utils.js';
 
 const userInfo = document.getElementById('display-user');
 

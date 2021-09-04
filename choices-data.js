@@ -1,7 +1,7 @@
 const cassiopeia = {
     id: 'cassiopeia',
     title: 'Who is the Most beautiful?',
-    img: 'cassiopeia.jpeg',
+    img: 'cassiopeia_lg.jpg',
     description: 'You encounter Cassiopeia, who is arguing with the Nereids, they are sea nymphs, about who is the most beautiful, Cassiopeia claims she has no equal. You intervene and:',
 
     choices: [{
@@ -28,7 +28,7 @@ const cassiopeia = {
 const ursaMajor = {
     id: 'ursaMajor',
     title: 'Woodland Stroll',
-    img: 'ursa.jpeg',
+    img: 'ursa_major_lg.jpg',
     description: 'You are out in the woods and come across a bear. Before you can decide to do anything dumb, the bear says that they are Callisto, changed into a bear by a jealous Hera. The bear asks for your help.',
     choices: [{
         id: 'constellation-choice1',
@@ -54,7 +54,7 @@ const ursaMajor = {
 const virgo = {
     id: 'virgo',
     title: 'Plant Eater',
-    img: 'virgo.jpeg',
+    img: 'virgo_lg.jpg',
     description: 'It’s spring time and you are walking through the fields, but the plants are starting to wither and it’s over 100 degrees out. You come across a stump with an apple and a pomegranate sitting on top. The pomegranate has a note next to it that says “eat the pomegranate and all will be well”. The apple has a note next to it that reads “eat the apple to cool the day, the pomegranate is poison.”',
     choices: [{
         id: 'constellation-choice1',
