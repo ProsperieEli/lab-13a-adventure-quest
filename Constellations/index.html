@@ -11,13 +11,13 @@
     <link rel="stylesheet" href="../styles/home.css"> -->
     <link rel="stylesheet" href="./constellations.css">
 
-    <title>Your Constellation Decision</title>
+    <title>Your Constellation Decisions</title>
 
 </head>
 
 <body>
     <header>
-        <span>User results</span>
+        <div>Name is very brave and kinda dangerous.</div>
     </header>
 
     <main>
@@ -28,25 +28,27 @@
 
             <form>
                 <label>
-                    <div id="constellation-title"> title</div>
-                </label>
-                <!-- <label>
-                    <img id="constellation-img" src="" />
-                </label> -->
-                <label>
-                    <div id="constellation-description">description</div>
+                    <h1 id="constellation-title"></h1>
                 </label>
                 
-                <label id="description-1">choice1 
-                        <input id="constellation-choice1" type ="radio" name ="choice" value= "choice1">
-                    </label>
-                    <label id="description-2">choice2
-                        <input id="constellation-choice2" type ="radio" name ="choice" value= "choice2">
-                    </label>
-                    <label id="description-3">choice3 
-                        <input id="constellation-choice3" type ="radio" name ="choice" value= "choice3">
-                    </label>
-                    <button class = "submit-button">Submit</button>
+                <label>
+                    <p id="constellation-description"></p>
+                </label>
+                
+                <label>
+                    <input type ="radio" name ="choice" value= "choice1" id="constellation-choice1" /><span id="description-1"></span>
+                </label>
+                
+                <label>
+                    <input id="constellation-choice2" type ="radio" name ="choice" value= "choice2"><span id="description-2"></span>
+                </label>
+                    
+                <label>
+                    <input id="constellation-choice3" type ="radio" name ="choice" value= "choice3"><span id="description-3"></span>
+                </label>
+                
+                <button class="submit-button">Choose</button>
+
             </form>
 
         </section>
