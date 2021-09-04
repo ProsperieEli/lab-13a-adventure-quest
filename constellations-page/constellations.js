@@ -1,12 +1,11 @@
 import choices from '../data/choices-data.js';
 import { findById } from '../local-storage-utils.js';
 import { getUserData } from '../local-storage-utils.js';
+import { renderUserHeader } from './header-input.js';
 
 const userData = getUserData();
 
-// plug current status of user into header
-const currentStatus = document.getElementById('current-status');
-currentStatus.textContent = `${userData.name} is ${'brave'} and ${'dangerous'}`;
+renderUserHeader(userData);
 
 const constellationTitle = document.getElementById('constellation-title');
 const constellationDescription = document.getElementById('constellation-description');

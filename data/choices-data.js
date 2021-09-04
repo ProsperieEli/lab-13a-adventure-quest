@@ -2,7 +2,7 @@ const cassiopeia = {
     id: 'cassiopeia',
     title: 'Was there ever any doubt?',
     img: 'cassiopeia_lg.jpg',
-    description: 'You are out for your daily swim and come across the Nereids. You stop to flirt with the stunning sea nymphs. Just then Cassiopeia shows up and starts an argument with the Nereids about who is the most beautiful. Cassiopeia claims that she has no equal. They look to you to settle the argument.',
+    description: 'You are out for your daily swim and come across the Nereids.\nYou stop to flirt with the stunning sea nymphs. Just then Cassiopeia\nshows up and starts an argument with the Nereids about who\nis the most beautiful. Cassiopeia claims that she has no equal.\nThey look to you to settle the argument.',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/1/1f/Waves.ogg',
     choices: [{
         id: 'constellation-choice1',
@@ -29,7 +29,7 @@ const ursaMajor = {
     id: 'ursaMajor',
     title: 'Your fears laid bear',
     img: 'ursa_major_lg.jpg',
-    description: 'You are out in the woods and come across a giant scary bear. Before you can decide to do anything dumb, the bear speaks. "I am Callisto, changed into a bear by the jealous Hera." The bear pleads with you to help with this awkward situation.',
+    description: 'You are out in the woods and come across a giant scary bear.\nBefore you can decide to do anything dumb, the bear speaks.\n"I am Callisto, changed into a bear by the jealous Hera."\nThe bear then pleads with you to help with this awkward situation.',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Walking_through_woods.ogg',
     choices: [{
         id: 'constellation-choice1',
@@ -56,7 +56,7 @@ const virgo = {
     id: 'virgo',
     title: 'Fruit of the Doom',
     img: 'virgo_lg.jpg',
-    description: `It’s spring time and you are walking through the fields. All the plants are starting to wither and it’s over 110˚. You come across a stump with an apple and a pomegranate sitting on top. The pomegranate has a note next to it that reads “Eat the pomegranate and all will be well”. The apple has a note next to it that reads “Eat the apple and cool the day. Also, the pomegranate is poison.”`,
+    description: `It’s spring time and you are walking through the fields. All the plants\nare starting to wither and it’s over 110˚. You come across a stump\nwith an apple and a pear sitting on top. Under the pear is a note:\n“Eat the pear and all will be well."\nThe apple also has a note:\n“Eat the apple and save the day. Also, the pear is poison.”`,
     audio: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Nature_sounds_ambience_in_a_Dordogne_pond.ogg',
     choices: [{
         id: 'constellation-choice1',
@@ -66,7 +66,7 @@ const virgo = {
     },
     {
         id: 'constellation-choice2',
-        description: 'You eat the pomegranate because you don’t trust apples.',
+        description: 'You eat the pear because you don’t trust apples.',
         shyness: 0,
         danger: 20
     },

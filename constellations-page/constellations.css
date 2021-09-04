@@ -42,7 +42,6 @@ form {
 }
 
 label {
-	/* display: block; */
 	margin-bottom: 10px;
 }
 
@@ -53,9 +52,11 @@ h1 {
 	margin-bottom: 15px;
 }
 
-p {
+pre {
 	font-size: .9rem;
 	letter-spacing: .03rem;
+	font-family: "Titillium Web", sans-serif;
+	color: antiquewhite;
 }
 
 label span {
@@ -98,6 +99,7 @@ footer {
 	align-items: center;
 	color: rgba(255, 255, 255, 0.152);
 	margin-right: 10px;
+	height: 100%;
 }
 audio { 
 	display: none;

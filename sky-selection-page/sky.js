@@ -3,5 +3,5 @@ import { getUserData } from '../local-storage-utils.js';
 
 const userInfo = document.getElementById('display-user');
 const userData = getUserData();
-userInfo.textContent = `Name: ${userData.name}, ${userData.animal}`;
+userInfo.textContent = `${userData.name} is still ${userData.personality}`;
 //shyness > 0 && userData.shyness

@@ -8,17 +8,16 @@ ourForm.addEventListener('submit', (e) => {
     const data = new FormData(ourForm);
 
     const userName = data.get('user-name');
-    const userAnimal = data.get('animal');
+    const userPersonality = data.get('personality');
+    
     const UserData = {
         name: userName,
-        animal: userAnimal,
+        personality: userPersonality,
         shyness: 0,
         danger: 0,
         visited: {}
     };
     setUserData(UserData);
-   
-    window.location = './sky-selection-page/';
 
+    window.location = './sky-selection-page/';
 });
-  // const player = document.querySelector('input:checked');
