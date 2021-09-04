@@ -1,4 +1,4 @@
-import choices from '../choices-data.js';
+import choices from '../data/choices-data.js';
 import { findById } from '../local-storage-utils.js';
 import { getUserData } from '../local-storage-utils.js';
 
@@ -23,7 +23,7 @@ const urlData = new URLSearchParams(window.location.search);
 const constellationId = urlData.get('id');
 const constellation = findById(choices, constellationId);
 
-document.body.style.background = `url(../constellations/star-assets/${constellation.img}) no-repeat`;
+document.body.style.background = `url(../constellations-page/star-assets/${constellation.img}) no-repeat`;
 document.body.style.backgroundSize = 'cover';
 
 constellationTitle.textContent = constellation.title;
