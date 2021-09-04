@@ -1,6 +1,6 @@
 const cassiopeia = {
     id: 'cassiopeia',
-    title: 'Who is the Most beautiful?',
+    title: 'Was there ever any doubt?',
     img: 'cassiopeia_lg.jpg',
     description: 'You are out for your daily swim and come across the Nereids. You stop to flirt with the stunning sea nymphs. Just then Cassiopeia shows up and starts an argument with the Nereids about who is the most beautiful. Cassiopeia claims that she has no equal. They look to you to settle the argument.',
 
@@ -27,7 +27,7 @@ const cassiopeia = {
 
 const ursaMajor = {
     id: 'ursaMajor',
-    title: 'Woodland Stroll',
+    title: 'Your fears laid bear',
     img: 'ursa_major_lg.jpg',
     description: 'You are out in the woods and come across a giant scary bear. Before you can decide to do anything dumb, the bear speaks. "I am Callisto, changed into a bear by the jealous Hera." The bear pleads with you to help with this awkward situation.',
     choices: [{
@@ -53,9 +53,9 @@ const ursaMajor = {
 
 const virgo = {
     id: 'virgo',
-    title: 'Danger Fruit',
+    title: 'Fruit of the Doom',
     img: 'virgo_lg.jpg',
-    description: `It’s spring time and you are walking through the fields. All the plants are starting to wither and it’s over 100 degrees out. You come across a stump with an apple and a pomegranate sitting on top. The pomegranate has a note next to it that reads “Eat the pomegranate and all will be well”. The apple has a note next to it that reads “Eat the apple and cool the day. Also, the pomegranate is poison.”`,
+    description: `It’s spring time and you are walking through the fields. All the plants are starting to wither and it’s over 110˚. You come across a stump with an apple and a pomegranate sitting on top. The pomegranate has a note next to it that reads “Eat the pomegranate and all will be well”. The apple has a note next to it that reads “Eat the apple and cool the day. Also, the pomegranate is poison.”`,
     choices: [{
         id: 'constellation-choice1',
         description: 'You eat the apple cause you are allergic to poison.',
@@ -70,7 +70,7 @@ const virgo = {
     },
     {
         id: 'constellation-choice3',
-        description: 'You keep walking because you don’t eat random fruits and you like the hot weather.',
+        description: 'You keep walking because you don’t eat random fruits and you like hot weather.',
         shyness: 10,
         danger: -10,
     }]

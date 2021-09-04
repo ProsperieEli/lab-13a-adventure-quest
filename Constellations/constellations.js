@@ -1,7 +1,11 @@
 import choices from '../choices-data.js';
 import { findById } from '../local-storage-utils.js';
+import { getUserData } from '../local-storage-utils.js';
 
-// const constellationImg = document.getElementById('constellation-img');
+const userData = getUserData();
+
+const currentStatus = document.getElementById('current-status');
+currentStatus.textContent = `${userData.name} is ${'brave'} and ${'dangerous'}`;
 
 const constellationTitle = document.getElementById('constellation-title');
 const constellationDescription = document.getElementById('constellation-description');
@@ -22,8 +26,6 @@ const constellation = findById(choices, constellationId);
 document.body.style.background = `url(../constellations/star-assets/${constellation.img}) no-repeat`;
 document.body.style.backgroundSize = 'cover';
 
-
-
 constellationTitle.textContent = constellation.title;
 // constellationImg.src = `../assets/${constellation.img}`;
 constellationDescription.textContent = constellation.description;
@@ -36,5 +38,3 @@ description2.textContent = constellation.choices[1].description;
 
 choice3.value = constellation.choices[2].id;
 description3.textContent = constellation.choices[2].description;
-
-
