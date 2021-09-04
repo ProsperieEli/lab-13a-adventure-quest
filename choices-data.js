@@ -18,7 +18,7 @@ const cassiopeia = {
     },
     {
         id: 'constellation-choice3',
-        description: 'Your self esteem is on-point and you calmly explain to everyone involved that you are obviously the most beautiful.',
+        description: 'Your self esteem is on-point and you calmly explain to everyone that you are obviously the most beautiful.',
         shyness: -10,
         danger: 20
     }]
@@ -29,7 +29,7 @@ const ursaMajor = {
     id: 'ursaMajor',
     title: 'Woodland Stroll',
     img: 'ursa_major_lg.jpg',
-    description: 'You are out in the woods and come across a scary bear. Before you can decide to do anything dumb, the bear speaks. "I am Callisto, changed into a bear by the jealous Hera." The bear then asks for your help.',
+    description: 'You are out in the woods and come across a giant scary bear. Before you can decide to do anything dumb, the bear speaks. "I am Callisto, changed into a bear by the jealous Hera." The bear pleads with you to help with this awkward situation.',
     choices: [{
         id: 'constellation-choice1',
         description: 'You find Hera and demand that she change Callisto back or you are going to narc on her to Zeus. ',
@@ -70,7 +70,7 @@ const virgo = {
     },
     {
         id: 'constellation-choice3',
-        description: 'You keep walking because you don’t eat random fruits and like the hot weather.',
+        description: 'You keep walking because you don’t eat random fruits and you like the hot weather.',
         shyness: 10,
         danger: -10,
     }]
