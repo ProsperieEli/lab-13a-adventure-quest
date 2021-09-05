@@ -11,7 +11,7 @@
 */
 
 export const UserData = {
-    name: ,
+    name: '',
     animal: '',
     shyness: 0,
     danger: 0,

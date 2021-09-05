@@ -1,0 +1,56 @@
+body {
+    background-image: url('./results-assets/stars-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Titillium Web", sans-serif;
+	color: antiquewhite;
+}
+
+main {
+    padding: 22px;
+	display: grid;
+	grid-template-columns: 1fr 666px 1fr;
+	min-height: 333px;
+}
+
+.main-section {
+	background-image: url('./results-assets/unicorn-3.jpeg');
+	background-repeat: no-repeat;
+    background-size: cover;
+	opacity: .8;
+    background-color: rgba(0, 0, 0, 0.568);
+	border-radius: 9px;
+	padding: 66px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-shadow: 0px 0px 8px rgb(0, 0, 0);
+	min-height: 444px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 3rem;
+	padding: 0;
+	margin: 0;
+}
+
+div {
+	font-weight: 100;
+	font-size: 1.2rem;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(255, 248, 220, 0.399);
+	font-size: .8rem;
+}
+
+a:hover {
+    color: cornsilk;
+	text-shadow: 0px 0px 8px purple;
+}
