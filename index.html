@@ -9,36 +9,42 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+
+    <link rel="icon" href="../assets/favicon_io/favicon.ico">
+    
+    <title>Find your spirit animal</title>
 </head>
 
-<body>
-    <header>
-        <div class="gutter-right logo">
-            <img src="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2533&q=80" />
-        </div>
-    </header>
+<body class ="home-main">
 
     <main>
 
         <section class="main-section">
            
-            <h2>Choose your Spirit Animal!</h2>
+            <h2>Find your Spirit Animal</h2>
 
             <form id="our-form">
-                <label>Preferred Name:
-                    <input type ="text" id="user-name">
+                <label><p>Preferred Name: 
+                    <input type ="text" name="user-name"></p>
                 </label>
-                <label>Brave
-                    <input type ="radio" name ="animal" value= "animal1" id="animal-one" class="animal-one">
+
+                <h1>What best describes you?</h1>
+                <h3> A Brave Person</h3>
+                <label> <input type="radio" name="personality" value="dangerous" id="personality-one" class="personality-one"> 
+                    <img src = "assets/Lion.jpeg">
+                    
                 </label>
-                <label>Shy
-                    <input type ="radio" name ="animal" value= "animal2" id="animal-two" class="animal-two">
+
+                <h3>A Modest Person</h3>
+                <label><input type="radio" name="personality" value="shy" id="personality-two" class="personality-two">
+                    <img src = "assets/Seal.jpeg">
                 </label>
-                <label>Scary 
-                    <input type ="radio" name ="animal" value= "animal3" id="animal-three" class="animal-three">
+                <h3> A Clever Person</h3>
+                <label><input type="radio" name="personality" value="chill" id="personality-three" class="personality-three">
+                    <img src = "assets/Snake.jpeg">
                 </label>
-                <button class = "first-page-button">Submit</button>
+                
+                <button class="first-page-button">Submit</button>
             </form>
 
         </section>
