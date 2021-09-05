@@ -9,34 +9,32 @@
     <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/home.css">
-    <title>Document</title>
+    <link rel="icon" href="../assets/favicon_io/favicon.ico">
+    <title>Find your spirit animal</title>
 </head>
 
-<body>
-    <header>
-        User info header
+<body class = "stars">
+    
+    <header id="display-user">
+
     </header>
 
-    <main>
-
-        <section class="main-section">
-           
-            <h2>Visit a constellation</h2>
-
-            <form class = "links">
-         <a class ="link" href="">link1</a>
-         <a class ="link" href="">link2</a>
-         <a class ="link" href="">link3</a>
+    <main class = "sky-main">
+        <section class="main-section">     
+            <h2>Visit a Constellation</h2>
+            <form class="links">
+                <a class="link" href= "../constellations-page/?id=cassiopeia">Cassieopia</a>
+                <a class="link" href="../constellations-page/?id=ursaMajor">Ursa Major</a>
+                <a class="link" href="../constellations-page/?id=virgo">Virgo</a>
             </form>
-
         </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2021</div>
+        <!-- <audio loop autoplay="true" id="space-audio" controls src="https://ia802705.us.archive.org/1/items/LuxAeterna_928/LuxAeternaByClintMansell.ogg"> -->
     </footer>
 
-    <script type="module" src="../app.js"></script>
-    <script type="module" src="../local-storage-utils.js"></script>
+    <script type="module" src="./sky.js"></script>
+   
 </body>
 
 </html>
