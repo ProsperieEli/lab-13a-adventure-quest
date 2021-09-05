@@ -22,7 +22,7 @@ const backgroundAudio = document.getElementById('background-audio');
 
 const urlData = new URLSearchParams(window.location.search);
 const constellationId = urlData.get('id');
-const constellation = findById(choices, constellationId);
+export const constellation = findById(choices, constellationId);
 
 // set background audio
 backgroundAudio.src = constellation.audio;
@@ -47,3 +47,9 @@ description2.textContent = constellation.choices[1].description;
 
 choice3.value = constellation.choices[2].id;
 description3.textContent = constellation.choices[2].description;
+
+
+// workspace
+
+// (constellation.choices[1].shyness);
+// (constellation.choices[1].danger);

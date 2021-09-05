@@ -4,4 +4,8 @@ import { getUserData } from '../local-storage-utils.js';
 const userInfo = document.getElementById('display-user');
 const userData = getUserData();
 userInfo.textContent = `${userData.name} is still ${userData.personality}`;
-//shyness > 0 && userData.shyness
+
+
+// add function to check if userData.visited has a true for a link id
+// if so, change the link
+// if all do, redirect to results page

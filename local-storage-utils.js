@@ -1,4 +1,3 @@
-// import { UserData } from './user-data.js';
 
 export const USERDATA = 'USERDATA';
 
@@ -13,8 +12,8 @@ export function getUserData() {
     return parseArray;
 }
 
-export function findById(UserData, id) {
-    for (let user of UserData) {
+export function findById(someArray, id) {
+    for (let user of someArray) {
         if (user.id === id) {
             return user;
         }

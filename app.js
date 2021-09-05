@@ -15,7 +15,7 @@ ourForm.addEventListener('submit', (e) => {
         personality: userPersonality,
         shyness: 0,
         danger: 0,
-        visited: {}
+        visited: {},
     };
     setUserData(UserData);
 

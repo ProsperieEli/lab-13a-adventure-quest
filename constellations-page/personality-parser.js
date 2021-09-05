@@ -1,10 +1,6 @@
+// import personalityType from '../data/user-personality.js';
 // import { getUserData } from '../local-storage-utils.js';
-// import { userPersonality } from '../data/user-personality';
 
-// export function personalityParse() {
- 
-//     const shynessFactor = {
-//         if { userData.shyness < 0
-//         }
-//     }
-// }
+// const userData = getUserData();
+
+// let 
