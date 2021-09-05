@@ -28,7 +28,7 @@ export const constellation = findById(choices, constellationId);
 backgroundAudio.src = constellation.audio;
 
 // set background audio file to low volume
-backgroundAudio.volume = 0.2;
+backgroundAudio.volume = 0.1;
 
 // set background immage from data file
 document.body.style.background = `url(../constellations-page/star-assets/${constellation.img}) no-repeat`;

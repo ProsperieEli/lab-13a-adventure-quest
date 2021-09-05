@@ -163,7 +163,7 @@ p {
 	margin: var(--gutter);
 }
 
-footer {
+/* footer {
 	position: fixed;
 	width: 100%;
 	bottom: 0;
@@ -172,7 +172,7 @@ footer {
 	justify-content: flex-end;
 	background-color: var(--color3);
 	box-shadow: var(--shadow);
-}
+} */
 
 @keyframes pulse {
 	20% {
