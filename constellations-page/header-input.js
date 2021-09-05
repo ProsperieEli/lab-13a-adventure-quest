@@ -7,5 +7,4 @@ export function renderUserHeader() {
     const currentStatus = document.getElementById('current-status');
 
     currentStatus.textContent = `${userData.name}'s comfort level is ${userData.shyness} and danger level is ${userData.danger}`;
-
 }
