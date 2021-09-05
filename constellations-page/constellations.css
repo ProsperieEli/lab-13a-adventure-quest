@@ -11,7 +11,8 @@ html, body {
 body {
 	font-family: "Titillium Web", sans-serif;
 	color: antiquewhite;
-	height: 100%;
+	display: grid;
+	grid-template-rows: 1fr auto 1fr;
 }
 
 header {
@@ -98,12 +99,10 @@ button:hover {
 }
 
 footer {
-	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	text-align: right;
 	color: rgba(255, 255, 255, 0.152);
-	margin-right: 10px;
-	height: 100%;
+	margin-right: 15px;
+	align-self: end;
 }
 
 audio { 
