@@ -6,7 +6,7 @@ const shynessLvl = {
 
 const dangerLvl = {
     low: 'and find no reason to put yourself in harms way.',
-    medium: 'and ready for what comes your way',
+    medium: 'and are ready for what comes your way.',
     high: 'and get your thrills by living dangerously.',
 };
 
