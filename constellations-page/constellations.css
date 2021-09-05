@@ -4,9 +4,14 @@
 	margin: 0;
 }
 
+html, body {
+	min-height: 100%;
+}
+
 body {
 	font-family: "Titillium Web", sans-serif;
 	color: antiquewhite;
+	height: 100%;
 }
 
 header {
@@ -25,7 +30,6 @@ header {
 main {
 	display: grid;
 	grid-template-columns: 1fr 666px 1fr;
-	min-height: 666px;
 }
 
 .main-section {
