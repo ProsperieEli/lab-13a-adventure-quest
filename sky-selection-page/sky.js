@@ -10,4 +10,4 @@ userInfo.textContent = `${userData.name} is still ${userData.personality}`;
 // if so, change the link
 // if all do, redirect to results page
 
-document.getElementById('space-audio').volume = 0.1;
+// document.getElementById('space-audio').volume = 0.1;
