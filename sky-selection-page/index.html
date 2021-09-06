@@ -5,33 +5,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../styles/reset.css">
+    <!-- <link rel="stylesheet" href="../styles/reset.css">
     <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/home.css">
-    <title>Find your spirit animal</title>
+    <link rel="stylesheet" href="../styles/home.css"> -->
+    <link rel="stylesheet" href="./sky.css">
 
     <link rel="icon" href="../assets/favicon_io/favicon.ico">
-
+    
+    <title>Find your spirit animal</title>
 
 </head>
 
 <body>
     
-    <header id="display-user">
-
+    <header>
+        <div id="current-status"></div>
     </header>
 
     <main>
-        <section class="main-section">     
-            <h2>Visit a constellation</h2>
+        <div></div>
+        <section class="main-section">  
+
             <form class="links">
-                <a class="link" href= "../constellations-page/?id=cassiopeia">Cassieopia</a>
-                <a class="link" href="../constellations-page/?id=ursaMajor">Ursa Major</a>
-                <a class="link" href="../constellations-page/?id=virgo">Virgo</a>
+                <a class="link" href="../constellations-page/?id=cassiopeia">
+                <img src="./sky-assets/cassiopeia.png" alt="Cassiopeia constellation">
+                <div class="constellation-link">Cassiopeia</div>
+                </a>
+                <a class="link" href="../constellations-page/?id=ursaMajor">
+                    <img src="./sky-assets/ursa-major.png" alt="Ursa Major constellation">
+                    <div class="constellation-link">Ursa Major</div>
+                </a>
+                <a class="link" href="../constellations-page/?id=virgo">
+                    <img src="./sky-assets/virgo.png" alt="Virgo constellation">
+                    <div class="constellation-link">Virgo</div>
+                </a>
             </form>
+
+            <h1>Visit the constellations</h1>
+
         </section>
+        <div></div>
     </main>
+
     <footer>
         <!-- <audio loop autoplay="true" id="space-audio" controls src="https://ia802705.us.archive.org/1/items/LuxAeterna_928/LuxAeternaByClintMansell.ogg"> -->
     </footer>

@@ -7,20 +7,20 @@ const cassiopeia = {
     choices: [{
         id: 'constellation-choice1',
         description: 'You agree with Cassiopeia, as she is just wow, I mean, WOW.',
-        shyness: 10,
-        danger: -20
+        shyness: 0,
+        danger: -1
     },
     {
         id: 'constellation-choice2',
         description: 'You tell Cassiopeia the Nereids just edge her out in the beauty department, but she has many other fine qualities.',
-        shyness: -10,
-        danger: 10
+        shyness: -1,
+        danger: 1
     },
     {
         id: 'constellation-choice3',
         description: 'Your self esteem is on-point and you calmly explain to everyone that you are obviously the most beautiful.',
-        shyness: -20,
-        danger: 10
+        shyness: -1,
+        danger: 1
     }]
 
 };
@@ -34,20 +34,20 @@ const ursaMajor = {
     choices: [{
         id: 'constellation-choice1',
         description: 'You find Hera and demand that she change Callisto back or you are going to narc on her to Zeus. ',
-        shyness: -20,
-        danger: 20
+        shyness: -1,
+        danger: 1
     },
     {
         id: 'constellation-choice2',
         description: 'You ask Hera to turn you into a bear so you can live out your days in the forest with Callisto-bear. ',
-        shyness: -10,
-        danger: -20
+        shyness: 0,
+        danger: -1
     },
     {
         id: 'constellation-choice3',
         description: 'You capture the bear and post tik-tok & youtube vids of the talking animal. The ad revenue makes you rich beyond compare.',
-        shyness: -10,
-        danger: 10
+        shyness: -1,
+        danger: 0
     }]
 
 };
@@ -61,20 +61,20 @@ const virgo = {
     choices: [{
         id: 'constellation-choice1',
         description: 'You eat the apple cause you are allergic to poison.',
-        shyness: -10,
-        danger: 0
+        shyness: 0,
+        danger: 1
     },
     {
         id: 'constellation-choice2',
         description: 'You eat the pear because you don’t trust apples.',
-        shyness: -10,
-        danger: 20
+        shyness: 0,
+        danger: 1
     },
     {
         id: 'constellation-choice3',
         description: 'You keep walking because you don’t eat random fruits.',
-        shyness: 20,
-        danger: -10
+        shyness: 1,
+        danger: -1
     }]
 
 };

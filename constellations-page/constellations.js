@@ -1,7 +1,7 @@
 import choices from '../data/choices-data.js';
 import { findById } from '../local-storage-utils.js';
 import { getUserData } from '../local-storage-utils.js';
-import { renderUserHeader } from './header-input.js';
+import { renderUserHeader } from '../header-input.js';
 
 const userData = getUserData();
 
