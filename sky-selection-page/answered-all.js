@@ -5,8 +5,8 @@ const userData = getUserData();
 
 export function answeredQuestions() {
     let finishedAll = true;
-    for (let choice of choices) {
-        if (!userData.visited[choice.id]) {
+    for (let page of choices) {
+        if (!userData.visited[page.id]) {
             finishedAll = false;
         }
     }

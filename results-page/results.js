@@ -15,6 +15,6 @@ const spiritAnimalSelection = findSpiritAnimal();
 spiritAnimalName.textContent = spiritAnimalSelection;
 
 const mainSection = document.querySelector('.main-section');
-const image = findSpiritAnimalImage(userData);
+const image = findSpiritAnimalImage();
 mainSection.style.backgroundImage = (`url('./results-assets/${image}')`);
 mainSection.style.backgroundSize = 'cover';

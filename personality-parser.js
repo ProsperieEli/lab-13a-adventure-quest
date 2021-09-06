@@ -1,7 +1,8 @@
-import { getUserData } from '../local-storage-utils.js';
-import personalityType from '../data/personality-data.js';
+import { getUserData } from './local-storage-utils.js';
+import personalityType from './data/personality-data.js';
 
 const userData = getUserData();
+
 let shynessResponse = '';
 let dangerlvl = '';
 

@@ -31,7 +31,7 @@ backgroundAudio.src = constellation.audio;
 backgroundAudio.volume = 0.1;
 
 // set background immage from data file
-document.body.style.background = `url(../constellations-page/star-assets/${constellation.img}) no-repeat`;
+document.body.style.background = `url(./star-assets/${constellation.img}) no-repeat`;
 document.body.style.backgroundSize = 'cover';
 
 //set title and description from data file
@@ -47,9 +47,3 @@ description2.textContent = constellation.choices[1].description;
 
 choice3.value = constellation.choices[2].id;
 description3.textContent = constellation.choices[2].description;
-
-
-// workspace
-
-// (constellation.choices[1].shyness);
-// (constellation.choices[1].danger);
