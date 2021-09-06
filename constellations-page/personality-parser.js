@@ -1,5 +1,5 @@
 import { getUserData } from '../local-storage-utils.js';
-import personalityType from '../data/personality-types.js';
+import personalityType from '../data/personality-data.js';
 
 const userData = getUserData();
 let shynessResponse = '';
