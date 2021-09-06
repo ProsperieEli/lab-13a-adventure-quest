@@ -1,13 +1,13 @@
 const comfort = {
-    low: 'ready to party',
-    medium: 'just chilling',
-    high: 'in hiding',
+    low: 'happy to stay at home',
+    mid: 'chillin',
+    high: 'ready to party',
 };
 
 const safety = {
-    low: 'very cautious',
-    medium: 'ready for what comes',
-    high: 'no fear',
+    low: 'ready for anything',
+    mid: 'is all good',
+    high: 'cautious as all getout',
 };
 
 const personalityType = [
