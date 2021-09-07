@@ -1,10 +1,11 @@
 import { setUserData } from './local-storage-utils.js';
-
+import { validateInput } from './constellations-page/validate-input.js';
 const ourForm = document.querySelector('#our-form');
+
 
 ourForm.addEventListener('submit', (e) => {
     e.preventDefault();
-
+  
     const data = new FormData(ourForm);
 
     const userName = data.get('user-name');
