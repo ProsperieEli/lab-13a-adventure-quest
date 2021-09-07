@@ -41,8 +41,12 @@ main {
 
 .main-section {
 	display: grid;
-	grid-template-rows: 444px 1fr;
+	grid-template-rows: 1fr 1fr;
 }
+
+/* .main-section * {
+	border: 1px white solid;
+} */
 
 .constellation-link {
     color: cornsilk;
@@ -53,9 +57,6 @@ main {
 }
 
 form {
-	/* background-color: rgba(0, 0, 0, 0.568);
-	border-radius: 9px;
-	padding: 65px; */
 	display: grid;
     width: 100%;
 	grid-template-columns: 1fr 1fr 1fr;
@@ -84,7 +85,8 @@ h1 {
     text-align: center;
     text-shadow: 0px 0px 10px rgb(0, 0, 0);
     font-weight: 600;
-    color: cornsilk;
+    color: rgba(255, 248, 220, 0.604);
+	align-self: center;
 }
 
 /* footer {
