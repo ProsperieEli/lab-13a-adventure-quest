@@ -57,7 +57,7 @@ const virgo = {
     title: 'Fruit of the Doom',
     img: 'virgo_lg.jpg',
     description: `It’s midsummer and you are talking a stroll through some fields near your hut. The plants are starting to wither and the sky starts filling with smoke. You come across a stump with an apple and a pear sitting on top. Under the pear is a note: “Eat the pear and all will be well." The apple also has a note: “Eat the apple and save the day. Also, the pear is poison.”`,
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/f/fe/Nature_sounds_ambience_in_a_Dordogne_pond.ogg',
+    audio: 'https://upload.wikimedia.org/wikipedia/commons/7/7f/Bee_sounds_near_Cologne%2C_Germany_-_reinsamba.wav',
     choices: [{
         id: 'constellation-choice1',
         description: 'You eat the apple cause you are allergic to poison.',
