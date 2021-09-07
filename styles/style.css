@@ -22,7 +22,7 @@ body {
 } */
 
 .home-body {
-	background-image: url(../assets/tallsky-wide.jpg);
+	background-image: url(../assets/mountain-sky.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -83,7 +83,7 @@ img {
 
 .first-page-button {
 	font-family: Mukta;
-    background-color: rgba(255, 255, 221, 0.817);
+    background-color: rgba(255, 255, 221, 0.502);
     color:black;
     height: 80px; 
     width: 80px; 

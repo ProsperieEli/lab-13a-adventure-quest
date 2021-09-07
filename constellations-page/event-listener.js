@@ -21,5 +21,9 @@ constellationForm.addEventListener('submit', (e) => {
     
     setUserData(userData);
 
+    // add display: none for buttons here
+    // show hidden div
+    // add set timeout here
+
     window.location = '../sky-selection-page/';
 });
