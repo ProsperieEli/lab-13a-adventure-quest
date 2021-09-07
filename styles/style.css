@@ -1,94 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
 
+* {
+	box-sizing: border-box;
+}
+
+body, html {
+	min-height: 100%;
+}
 
 body {
-	/* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
-	/* --color1: hsla(349, 69%, 76%, 1);
-    --color2: hsla(207, 67%, 44%, 1);
-    --color3: hsla(200, 61%, 56%, 1);
-    --color4: hsla(187, 41%, 94%, 1);
-    --color5: hsla(170, 28%, 95%, 1); */
-
-	/* --color1: hsla(45, 86%, 83%, 1);
-    --color2: hsla(135, 65%, 98%, 1);
-    --color3: hsla(315, 37%, 86%, 1);
-    --color4: hsla(45, 73%, 98%, 1);
-    --color5: hsla(224, 40%, 79%, 1); */
-
-	--header-height: 80px;
-	--shadow: 0px 10px 20px -12px rgba(0, 0, 0, 0.45);
-	--gutter: 30px;
-	--footer-height: 25px;
-
-	font-family: "Titillium Web", sans-serif;
+	font-family: Mukta;
 	background-color: black;
 	color: antiquewhite;
 }
 
-main {
+/* main {
 	display: flex;
-	flex-direction: column;
+	align-content: center;
 	justify-content: center;
-	align-items: center;
-	margin-bottom: calc(var(--footer-height));
+} */
+
+.home-body {
+	background-image: url(../assets/stars-2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-form {
-	border: 2px solid black;
+.home-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-size: 3rem;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+.home-page-form {
 	display: grid;
-	grid-row: 1fr 1fr 1fr 1fr;
+	justify-items: center;
 }
 
-section {
-	background-color: var(--color5);
-	width: 1000px;
-	max-width: 80%;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	padding-top: var(--gutter);
-	padding-bottom: var(--gutter);
-	margin-top: var(--gutter);
-	margin-bottom: var(--gutter);
-	border: solid 2px var(--color1);
+.amimal-selections {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin: 33px;
 }
 
-header {
+.amimal-selections div {
+	font-size: .8rem;
+	color: rgba(255, 248, 220, 0.488);
+	text-align: center;
+}
+
+img {
+	border-radius: 10px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* HIDE RADIO */
+[type=radio] { 
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+  /* IMAGE STYLES */
+[type=radio] + img {
+	cursor: pointer;
+	border: 2px solid rgba(135, 207, 235, 0);
+}
+
+  /* CHECKED STYLES */
+[type=radio]:checked + img {
+	border: 2px solid skyblue;
+}
+
+.first-page-button {
+	font-family: Mukta;
+    background-color: rgba(255, 255, 221, 0.817);
+    color:black;
+    height: 80px; 
+    width: 80px; 
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.first-page-button:hover{
+    background-color:rgba(0, 0, 0, 0.659);
+	border-color:#ffd;
+    color:#ffd;
+	border-radius: 100%;
+	height: 90px;
+	width: 90px;
+	cursor: pointer;
+}
+
+/* .stars{
+	background-image: url(../assets/earth2.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+} */
+
+/* header {
 	display: flex;
 	justify-content: flex-end;
-	background-color: #002;
+	opacity:50%;
 	color: antiquewhite;
 	height: var(--header-height);
 	box-shadow: var(--shadow);
-}
+} */
 
-span {
-	margin-right: 10px;
-}
-
-.links {
+/* .links {
 	height: 700px;
 	width: 700px;
-	background-image: url(../assets/Constellation\ map.jpeg);
-	background-size: cover;
-	background-repeat: no-repeat;
+	margin-top: 60px;;
 	color: antiquewhite;
 	text-decoration: none;
+	border: none;
+	font-family: Mukta;
+	text-transform: uppercase;
 }
 
 .link {
+	display: flex;
 	text-decoration: none;
 	color: antiquewhite;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 .link:hover {
-	background-color: #83c;
-	border-color: #efd;
-	border-radius: 15%;
-	color: #efd;
+	background-color: #ffd;
+	border-color: #9de;
+	border-radius: 10%;
+	color: black;
 	height: 50px;
-	width: 100px;
+	width: 170px;
 	cursor: pointer;
 }
 
@@ -99,7 +151,6 @@ span {
 
 .try-again:hover {
 	background-color: #83c;
-
 	border-radius: 15%;
 	color: #efd;
 	height: 30px;
@@ -108,7 +159,8 @@ span {
 }
 
 .submit-button{
-    background-color: #83c;
+	font-family: Mukta;
+    background-color: #ffd;
     color:antiquewhite;
     border-radius: 100%;
 }
@@ -121,47 +173,30 @@ span {
 	height: 40px;
 	width: 80px;
 	cursor: pointer;
-}
+} */
 
-.first-page-button{
-    background-color: #83c;
-    color:antiquewhite;
-    height: 60px; 
-    width:60px; 
-    border-radius: 40%;
-    margin-top: 10%;
-}
-
-.animal-one{
+/* .animal-one{
     background-image: url();
-}
+} */
 
-footer {
+/* footer {
 	display: flex;
 	justify-content: flex-end;
 	background-color: var(--color3);
 	box-shadow: var(--shadow);
-}
+} */
 
-h2 {
-	font-size: 1.8rem;
-	font-weight: bold;
-}
-
-.gutter-right {
+/* .gutter-right {
 	margin-right: 20px;
-}
+} */
 
-.main-logo {
-}
-
-header img {
+/* header img {
 	height: var(--header-height);
-}
+} */
 
-p {
+/* p {
 	margin: var(--gutter);
-}
+} */
 
 /* footer {
 	position: fixed;
@@ -173,21 +208,3 @@ p {
 	background-color: var(--color3);
 	box-shadow: var(--shadow);
 } */
-
-@keyframes pulse {
-	20% {
-		transform: rotate3d(-10, -10, -10, 50deg) scale(1.2);
-	}
-
-	40% {
-		transform: rotate3d(10, 10, -10, 50deg) scale(1);
-	}
-
-	60% {
-		transform: rotate3d(-10, 10, 10, 50deg) scale(1.2);
-	}
-
-	80% {
-		transform: rotate3d(10, 10, 10, 50deg) scale(1);
-	}
-}

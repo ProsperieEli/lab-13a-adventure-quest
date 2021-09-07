@@ -6,57 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <!-- <link rel="stylesheet" href="./styles/reset.css"> -->
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="./styles/home.css">
+    <!-- <link rel="stylesheet" href="./styles/home.css"> -->
 
     <link rel="icon" href="../assets/favicon_io/favicon.ico">
     
     <title>Find your spirit animal</title>
 </head>
 
-<body>
-    <header>
-        <div class="gutter-right logo">
-            <img src="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2533&q=80"/>
-        </div>
-    </header>
-
-    <main>
-
-        <section class="main-section">
-           
+<body class="home-body">
+    <main class="home-main">
             <h2>Find your Spirit Animal.</h2>
-
-            <form id="our-form">
-                <label><p>Preferred Name: <input type ="text" name="user-name"></p>
+            <form id="our-form" class="home-page-form">
+                <label>
+                    <p>Preferred Name: <input type ="text" name="user-name"></p>
                 </label>
-
                 <div>What best describes you?</div>
-
-                <label><input type="radio" name="personality" value="dangerous" id="personality-one" class="personality-one">
-                    <span>A thrill seeker.</span>
-                </label>
-
-                <label><input type="radio" name="personality" value="shy" id="personality-two" class="personality-two">
-                    <span>Pretty shy.</span>
-                </label>
-
-                <label><input type="radio" name="personality" value="chill" id="personality-three" class="personality-three">
-                    <span>A pretty chill person.</span>
-                </label>
-                
+                <section class="amimal-selections">
+                    <label>
+                        <div>A thrill seeker.</div>
+                        <input type="radio" name="personality" value="dangerous" id="personality-one" class="personality-one">
+                        <img src="assets/lion-sm.jpg">
+                    </label>
+                    <label>
+                        <div>Pretty shy.</div>
+                        <input type="radio" name="personality" value="shy" id="personality-two" class="personality-two">
+                        <img src="assets/seal-sm.jpg">
+                    </label>
+                    <label>
+                        <div>A pretty chill person.</div>
+                        <input type="radio" name="personality" value="chill" id="personality-three" class="personality-three">
+                        <img src="assets/snake-sm.jpg">
+                    </label>
+                </section>
                 <button class="first-page-button">Submit</button>
             </form>
-
-        </section>
     </main>
     <footer>
-        <div class="copy gutter-right">&copy; 2021</div>
     </footer>
-
     <script type="module" src="./app.js"></script>
     <script type="module" src="./local-storage-utils.js"></script>
 </body>
-
 </html>
