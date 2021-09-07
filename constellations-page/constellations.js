@@ -10,6 +10,8 @@ renderUserHeader(userData);
 const constellationTitle = document.getElementById('constellation-title');
 const constellationDescription = document.getElementById('constellation-description');
 
+
+
 const choice1 = document.getElementById('constellation-choice1');
 const choice2 = document.getElementById('constellation-choice2');
 const choice3 = document.getElementById('constellation-choice3');
@@ -47,3 +49,5 @@ description2.textContent = constellation.choices[1].description;
 
 choice3.value = constellation.choices[2].id;
 description3.textContent = constellation.choices[2].description;
+
+

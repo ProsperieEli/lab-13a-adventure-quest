@@ -113,3 +113,8 @@ footer {
 audio { 
 	display: none;
 }
+
+.alert {
+display: none;
+font-weight: 600;
+}

@@ -9,18 +9,21 @@ const cassiopeia = {
     choices: [{
         id: 'constellation-choice1',
         description: 'You agree with Cassiopeia, as she is just wow, I mean, WOW.',
+        results: 'She spares your life and you live to tell the tale.',
         shyness: 0,
         danger: -1
     },
     {
         id: 'constellation-choice2',
         description: 'You tell Cassiopeia the Nereids just edge her out in the beauty department, but she has many other fine qualities.',
+        results: 'You dance with the devil, you get the horns.',
         shyness: -1,
         danger: 1
     },
     {
         id: 'constellation-choice3',
         description: 'Your self esteem is on-point and you calmly explain to everyone that you are obviously the most beautiful.',
+        results: 'You\'re so vain, like the song.',
         shyness: -1,
         danger: 1
     }]
@@ -37,19 +40,22 @@ const ursaMajor = {
     audio: 'https://upload.wikimedia.org/wikipedia/commons/2/20/Walking_through_woods.ogg',
     choices: [{
         id: 'constellation-choice1',
-        description: 'You find Hera and demand that she change Callisto back or you are going to narc on her to Zeus. ',
+        description: 'You find Hera and demand that she change Callisto back or you are going to narc on her to Zeus.',
+        results: 'Congratulations! She has now turned you into a peacock.',
         shyness: -1,
         danger: 1
     },
     {
         id: 'constellation-choice2',
-        description: 'You ask Hera to turn you into a bear so you can live out your days in the forest with Callisto-bear. ',
+        description: 'You ask Hera to turn you into a bear so you can live out your days in the forest with Callisto-bear.',
+        results: 'Better love story than Twilight.',
         shyness: 0,
         danger: -1
     },
     {
         id: 'constellation-choice3',
         description: 'You capture the bear and post tik-tok & youtube vids of the talking animal. The ad revenue makes you rich beyond compare.',
+        results: 'AOC does not approve.',
         shyness: -1,
         danger: 0
     }]
@@ -67,6 +73,7 @@ const virgo = {
     choices: [{
         id: 'constellation-choice1',
         description: 'You eat the apple cause you are allergic to poison.',
+        results: 'An Apple a day, keeps the doctor away...And poison apparently.',
         shyness: 0,
         danger: 1,
         alert: 'apples are yummy!'
@@ -74,12 +81,14 @@ const virgo = {
     {
         id: 'constellation-choice2',
         description: 'You eat the pear because you don’t trust apples.',
+        results: 'How bad could poison really be?',
         shyness: 0,
         danger: 1
     },
     {
         id: 'constellation-choice3',
         description: 'You keep walking because you don’t eat random fruits.',
+        results: 'Learned from Snow White, did ya?',
         shyness: 1,
         danger: -1
     }]
