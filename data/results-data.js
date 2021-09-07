@@ -1,18 +1,18 @@
 const shynessLvl = {
     low: 'You are ready to party,',
-    medium: 'You get out now and then,',
-    high: 'You feel safe hidden away,',
+    mid: 'You like to get out now and then,',
+    high: 'You are happy to keep to yourself,',
 };
 
 const dangerLvl = {
     low: 'and find no reason to put yourself in harms way.',
-    medium: 'and are ready for what comes your way.',
+    mid: 'and are very levelheaded.',
     high: 'and get your thrills by living dangerously.',
 };
 
-const personalityLvls = [
+const finalPersonality = [
     shynessLvl,
     dangerLvl
 ];
 
-export default personalityLvls;
+export default finalPersonality;

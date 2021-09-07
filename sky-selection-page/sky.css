@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap');
+
+* { 
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	min-height: 100%;
+}
+
+body {
+	font-family: 'Mukta', sans-serif;
+	font-weight: 100;
+	color: antiquewhite;
+    background-image: url('../assets/shine-earth-small.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header {
+    height: 50px;
+	display: flex;
+    align-items: center;
+	justify-content: flex-end;
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.577));
+	color: rgba(250, 235, 215, 0.372);
+	padding-right: 20px;
+	font-size: .7rem;
+	letter-spacing: .02rem;
+	font-weight: 300;
+	text-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+
+main {
+	display: grid;
+	grid-template-columns: 1fr 10fr 1fr;
+    justify-content: space-evenly;
+}
+
+.main-section {
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+}
+
+/* .main-section * {
+	border: 1px white solid;
+} */
+
+.constellation-link {
+    color: cornsilk;
+    text-shadow: 0px 0px 6px rgb(0, 0, 0);
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: .01rem;
+}
+
+form {
+	display: grid;
+    width: 100%;
+	grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a img:hover {
+	filter: drop-shadow(0px 0px 4px rgb(252, 229, 137));
+}
+a div:hover {
+	color: rgb(252, 229, 137);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+h1 {
+	font-weight: 100;
+	font-size: 3rem;
+	line-height: 1.6;
+    text-align: center;
+    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    font-weight: 600;
+    color: rgb(255, 248, 220);
+	align-self: center;
+}
+
+/* footer {
+	text-align: right;
+	color: rgba(255, 255, 255, 0.152);
+	margin-right: 15px;
+	align-self: end;
+} */
+
+/* audio { 
+	display: none;
+} */

@@ -5,66 +5,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/style.css">
-    <link rel="stylesheet" href="../styles/home.css"> -->
     <link rel="stylesheet" href="./constellations.css">
-
     <link rel="icon" href="../assets/favicon_io/favicon.ico">
 
     <title>Find your spirit animal</title>
-
 </head>
 
 <body>
     <header>
-        <div id="current-status">Name is very brave and kinda dangerous.</div>
+        <div id="current-status"></div>
     </header>
-
     <main>
-
         <div></div>
-
         <section class="main-section">
-
             <form id="constellation-form">
                 <label>
                     <h1 id="constellation-title"></h1>
-                </label>
-                
+                </label>           
                 <label>
-                    <pre id="constellation-description"></pre>
-                </label>
-                
+                    <div id="constellation-description"></div>
+                </label>       
                 <label>
-                    <input type ="radio" name ="choice" value= "choice1" id="constellation-choice1" /><span id="description-1"></span>
-                </label>
-                
+                    <input type ="radio" name ="choice" value="choice1" id="constellation-choice1" /><span id="description-1"></span>
+                </label>     
                 <label>
-                    <input type ="radio" name ="choice" value= "choice2" id="constellation-choice2"><span id="description-2"></span>
-                </label>
-                    
+                    <input type ="radio" name ="choice" value="choice2" id="constellation-choice2" /><span id="description-2"></span>
+                </label>      
                 <label>
-                    <input type ="radio" name ="choice" value= "choice3" id="constellation-choice3"><span id="description-3"></span>
-                </label>
-                
+                    <input type ="radio" name ="choice" value="choice3" id="constellation-choice3" /><span id="description-3"></span>
+                </label>  
+                <!-- <label>
+                    <div id="answer-alert"></div>
+                </label>   -->
                 <button class="submit-button">Choose</button>
                 <audio loop autoplay="true" src="" id="background-audio">
             </form>
-
         </section>
-
         <div></div>
-
     </main>
-
     <footer>
         <div>&copy; 2021 Team Spirit</div>
     </footer>
     <script type="module" src="./constellations.js"></script>
     <script type="module" src="./event-listener.js"></script>
-    <script type="module" src="./header-input.js"></script>
-    
+    <script type="module" src="../header-input.js"></script>
+
 </body>
 </html>
