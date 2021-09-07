@@ -22,7 +22,8 @@ const backgroundAudio = document.getElementById('background-audio');
 
 const urlData = new URLSearchParams(window.location.search);
 const constellationId = urlData.get('id');
-export const constellation = findById(choices, constellationId);
+export const constellationPage = findById(choices, constellationId);
+
 
 // set background audio
 backgroundAudio.src = constellation.audio;
