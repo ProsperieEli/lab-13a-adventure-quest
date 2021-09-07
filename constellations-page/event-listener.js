@@ -19,7 +19,7 @@ constellationForm.addEventListener('submit', (e) => {
 
     const chosenAnswer = document.querySelector('input:checked');
     const responseArray = findById(constellation.choices, chosenAnswer.id);
-
+    const buttonEl = document.querySelector('button');
     const userData = getUserData();
 
     userData.shyness = Number(userData.shyness) + Number(responseArray.shyness);   
@@ -31,7 +31,7 @@ constellationForm.addEventListener('submit', (e) => {
     const allAnswers = document.querySelectorAll('input + span');
     allAnswers.forEach(DOMElement => {
         DOMElement.style.display = 'none';});
-    
+    buttonEl.style.display = 'none';
     choiceAlert.textContent = responseArray.results;
     choiceAlert.style.display = 'inline';
 
