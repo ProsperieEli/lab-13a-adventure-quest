@@ -14,8 +14,3 @@ if (finished) {
 // const userInfo = document.getElementById('display-user');
 // const userData = getUserData();
 // userInfo.textContent = `${userData.name} is still ${userData.personality}`;
-
-// const anchors = document.querySelector('a');
-// const links = anchors.href;
-// const search = links.location.search;
-// console.log(search);
