@@ -11,7 +11,7 @@ export function findSpiritAnimalImage() {
     } else if (shy < 0 && danger === 0) {
         spiritAnimalImage = 'rsz_bigfoot-2.jpg';
     } else if (shy < 0 && danger > 0) {
-        spiritAnimalImage = 'rsz_ice-dragon.jpeg';
+        spiritAnimalImage = 'rsz_fire-dragon.jpg';
     } else if (shy === 0 && danger < 0) {
         spiritAnimalImage = 'rsz_unicorn-3.jpeg';
     } else if (shy === 0 && danger === 0) {
