@@ -1,5 +1,4 @@
 import { setUserData } from './local-storage-utils.js';
-import { validateInput } from './constellations-page/validate-input.js';
 const ourForm = document.querySelector('#our-form');
 
 
