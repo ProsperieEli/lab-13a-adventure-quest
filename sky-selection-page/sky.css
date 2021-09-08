@@ -26,7 +26,7 @@ header {
     align-items: center;
 	justify-content: flex-end;
 	background-image: linear-gradient(to right, rgba(0, 0, 0, 0),rgba(0, 0, 0, 0), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.577));
-	color: rgba(250, 235, 215, 0.372);
+	color: rgba(250, 235, 215, 0.68);
 	padding-right: 20px;
 	font-size: .7rem;
 	letter-spacing: .02rem;
@@ -45,16 +45,13 @@ main {
 	grid-template-rows: 1fr 1fr;
 }
 
-/* .main-section * {
-	border: 1px white solid;
-} */
-
 .constellation-link {
-    color: cornsilk;
+    color:whitesmoke;
     text-shadow: 0px 0px 6px rgb(0, 0, 0);
     text-align: center;
     font-weight: 400;
     letter-spacing: .01rem;
+	font-size: 1.2rem;
 }
 
 form {
@@ -71,22 +68,24 @@ a:link {
 a img:hover {
 	filter: drop-shadow(0px 0px 4px rgb(252, 229, 137));
 }
+
 a div:hover {
-	color: rgb(252, 229, 137);
+	color: deeppink;
+	text-shadow: 0px 0px 14px rgb(0, 0, 0);
 }
 
-a:visited {
+/* a:visited {
     text-decoration: none;
-}
+} */
 
 h1 {
 	font-weight: 100;
 	font-size: 3rem;
 	line-height: 1.6;
     text-align: center;
-    text-shadow: 0px 0px 10px rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
     font-weight: 600;
-    color: rgb(255, 248, 220);
+    color: deeppink;
 	align-self: center;
 }
 
