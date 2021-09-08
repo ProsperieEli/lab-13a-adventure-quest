@@ -32,7 +32,7 @@ h1 {
 	font-size: 2.8rem;
 	font-weight: bold;
 	line-height: 1;
-	color: deeppink;
+	color: #F97068;
 }
 
 .text-input-box {
@@ -57,7 +57,7 @@ h2 {
 
 .amimal-selections div {
 	font-size: .95rem;
-	color:deeppink;
+	color:#F97068;
 	font-weight: 600;
 	text-align: center;
 	/* text-shadow: none; */
@@ -86,14 +86,14 @@ img {
 
 [type=radio] + img:hover {
 	cursor: pointer;
-	border: 3px solid rgba(255, 20, 145, 0.276);
+	border: 3px solid #f96f685a;
 	opacity: 1;
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.289);
 }
 
   /* CHECKED STYLES */
 [type=radio]:checked + img {
-	border: 3px solid deeppink;
+	border: 3px solid #F97068;
 }
 
 .first-page-button {
@@ -101,7 +101,7 @@ img {
 	font-weight: 600;
 	font-size: 1.4rem;
 	text-transform: uppercase;
-    background-color: rgba(255, 255, 221, 0.789);
+    background-color: rgba(255, 255, 221, 0.522);
     color:rgba(0, 0, 0, 0.728);
     height: 60px; 
     width: 166px; 
@@ -110,7 +110,7 @@ img {
 }
 
 .first-page-button:hover{
-    background-color:rgba(255, 20, 145, 0.721);
+    background-color:#F97068;
 	border-color:#ffd;
     color:#ffd;
 	border-radius: 10px;
