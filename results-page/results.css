@@ -3,6 +3,7 @@ html, body {
 }
 
 body {
+	background-color: black;
     background-image: url('./results-assets/stars-5.jpg');
     background-repeat: no-repeat;
     background-size: cover;
